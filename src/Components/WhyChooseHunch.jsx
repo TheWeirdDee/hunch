@@ -9,7 +9,9 @@ import Salad from "../assets/Salad.png";
 const WhyChooseHunch = () => {
   return (
 <div className="bg-white py-12 px-4">
-  {/* Title Section */}
+ 
+
+
   <div className="max-w-screen-lg mx-auto">
     <div className="flex flex-col sm:flex-row items-center sm:space-x-4 text-center sm:text-left">
       <h2 className="text-3xl sm:text-4xl font-bold text-gray-800">
@@ -28,7 +30,7 @@ const WhyChooseHunch = () => {
     </p>
   </div>
 
-  {/* Feature Boxes */}
+  
   <div className="mt-10 grid grid-cols-2 lg:grid-cols-4 gap-8 max-w-screen-lg mx-auto">
     {[ 
       { title: "First-Mover in Personalised Nutrition in Nigeria", image: FruitOne, alt: "Banana" },

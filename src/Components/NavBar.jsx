@@ -26,7 +26,7 @@ const NavBar = () => {
 
   return (
     <nav className="flex items-center justify-between bg-white px-4 py-2 shadow-md">
-      {/* Logo */}
+       
       <div className="flex items-center">
         <img
           src={HunchLogo}
@@ -35,7 +35,7 @@ const NavBar = () => {
         />
       </div>
 
-      {/* Links and Button */}
+       
       <div className="flex items-center justify-center space-x-6 mr-20 ">
         <div className="hidden md:flex space-x-6">
           <ul className="flex space-x-6 mt-3">

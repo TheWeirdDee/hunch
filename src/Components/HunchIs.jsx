@@ -6,7 +6,7 @@ import Union from "../assets/Union.png";
 const HunchIs = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 p-4">
-      {/* Header Section */}
+       
       <div className="flex items-center justify-center space-x-4 mb-4">
         <h1 className="text-3xl font-bold text-gray-800">What Hunch Is</h1>
         <div>

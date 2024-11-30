@@ -84,7 +84,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Waitlist Section */}
+        
         <div className="col-span-1 flex flex-col items-center lg:items-start">
           <h2 className="text-md font-semibold mb-2 text-center lg:text-left">Waitlist</h2>
           <a
