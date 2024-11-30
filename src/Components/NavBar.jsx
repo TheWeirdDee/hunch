@@ -56,9 +56,15 @@ const NavBar = () => {
             </li>
           </ul>
 
-          <button className="bg-red-500 mt-1 text-white px-4 py-2 rounded-lg hover:bg-red-600">
+
+          <div className="w-full flex justify-center mt-auto">
+            <NavLink to='/waitlist' activeClassName="active">
+   
+            <button className="bg-red-500 mt-1 text-white px-4 py-2 rounded-lg hover:bg-green-50 hover:text-black">
             Join the Waitlist
           </button>
+</NavLink>
+</div>
         </div>
 
         
@@ -81,10 +87,14 @@ const NavBar = () => {
               Contact
             </NavLink>
             <div className="w-full flex justify-center mt-auto">
-              <button className="bg-white text-red-600 px-4 py-2 rounded-lg font-semibold hover:bg-red-600 hover:text-white">
-                Join the Waitlist
-              </button>
-            </div>
+            <NavLink to='/waitlist' activeClassName="active">
+   
+    <button className="bg-white text-red-600 px-4 py-2 rounded-lg font-semibold hover:bg-red-600 hover:text-white">
+      Join the Waitlist
+    </button>
+</NavLink>
+</div>
+
           </div>
         </div>
       )}
