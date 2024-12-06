@@ -1,7 +1,7 @@
- /* eslint-disable no-unused-vars */
+/* eslint-disable no-unused-vars */
 import React from "react";
-import Hunchlunch from "../assets/Hunchlunch.png";
-import Union from "../assets/Union.png";
+import Hunchlunch from "../assets/Hunchlunch.png"; // Correct relative path
+import Union from "../assets/Union.png";          // Correct relative path
 
 const HunchIs = () => {
   return (
@@ -18,9 +18,7 @@ const HunchIs = () => {
         </div>
       </div>
 
-       
       <div className="flex flex-col lg:flex-row shadow-sm rounded-lg overflow-hidden max-w-6xl">
-         
         <div className="relative lg:w-1/2 p-6 flex items-center">
           <div className="grid grid-cols-1">
             <img
@@ -31,7 +29,6 @@ const HunchIs = () => {
           </div>
         </div>
 
-        
         <div className="lg:w-1/2 p-6 flex items-center">
           <div>
             <p className="text-gray-700 leading-relaxed">
