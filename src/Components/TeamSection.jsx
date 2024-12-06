@@ -1,13 +1,16 @@
 /* eslint-disable no-unused-vars */
 // TeamSection.jsx
 import React from "react";
-import Hunchlunch from "../assets/Hunchlunch.png";  
+import teamone from "../assets/teamone.png";  
+import teamtwo from "../assets/teamtwo.png";  
+import teamthree from "../assets/teamthree.png";  
+import teamfour from "../assets/teamfour.png";  
 
 const teamMembers = [
-  { name: "James John", role: "Chef", img: Hunchlunch },   
-  { name: "Joy Boom", role: "Product", img: Hunchlunch },
-  { name: "Ade Stephen", role: "Business", img: Hunchlunch },
-  { name: "Busayo Jacob", role: "Operations", img: Hunchlunch },
+  { name: "James John", role: "Chef", img: teamone },   
+  { name: "Joy Boom", role: "Product", img: teamtwo },
+  { name: "Ade Stephen", role: "Business", img: teamthree },
+  { name: "Busayo Jacob", role: "Operations", img: teamfour },
 ];
 
 const TeamSection = () => {
