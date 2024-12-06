@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import Hunchlunch from "../assets/Hunchlunch.png"; // Correct relative path
-import Union from "../assets/Union.png";          // Correct relative path
+import Hunchlunch from "../assets/Hunchlunch.png";  
+import Union from "../assets/Union.png";           
 
 const HunchIs = () => {
   return (
