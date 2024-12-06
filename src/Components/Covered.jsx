@@ -4,7 +4,7 @@ import Mobileone from "../assets/Mobileone.png";
 import mobiletwo from "../assets/mobiletwo.png";
 import mobilethree from "../assets/mobilethree.png";
 import mobilefour from "../assets/mobilefour.png";
-import star from "../assets/star.png";
+import star from "../assets/Star.png";
 import Ellipse from "../assets/Ellipse.png";
 import Polygon from "../assets/Polygon.png";
 import startwo from "../assets/startwo.png";
