@@ -6,6 +6,7 @@ import amico from "../assets/amico.png";
 import rafiki from "../assets/rafiki.png";
 import amicocopy from "../assets/amicocopy.png";
 import panacopy from "../assets/panacopy.png";
+import sandwich from "../assets/sandwich.png";  
 
 const HowItWorks = () => {
   const steps = [
@@ -44,7 +45,14 @@ const HowItWorks = () => {
   return (
     <section className="py-10 bg-white">
       <div className="max-w-6xl mx-auto text-center px-4">
-        <h2 className="text-3xl font-bold mb-6">How it works?</h2>
+         <div className="flex items-center justify-center gap-8">
+         <h2 className="text-3xl font-bold text-black mb-12 mt-6">How it works?</h2>
+        <img
+            src={sandwich}
+            alt="Hunch Logo"
+            className="h-24 w-24"  
+          />
+         </div>
         <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           {steps.map((step, index) => (
             <div

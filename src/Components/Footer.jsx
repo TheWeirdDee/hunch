@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
        
         <div className="col-span-1 lg:col-span-2 flex lg:ml-16 flex-col items-center lg:items-start">
-          <img src={HunchLogo} alt="Hunch Logo" className="h-16 w-32" />
+          <img src={HunchLogo} alt="Hunch Logo" className="h-10 w-28" />
           <p className="text-sm mt-2 text-center lg:text-left">
             Healthy Meals made for you.
           </p>
@@ -89,7 +89,7 @@ const Footer = () => {
           <h2 className="text-md font-semibold mb-2 text-center lg:text-left">Waitlist</h2>
           <a
             href="#"
-            className="bg-red-500 text-white px-6 py-2 mt-2 rounded-lg hover:bg-red-600 text-sm"
+            className="bg-red-600 text-white px-6 py-2 mt-2 rounded-lg hover:bg-red-700 text-sm"
           >
             Join the Waitlist
           </a>

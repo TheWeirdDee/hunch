@@ -30,7 +30,7 @@ const Home = () => {
               <li>
               <button
               className="mt-6 px-6 py-3 bg-red-500 text-white font-semibold rounded-lg shadow 
-              hover:bg-red-600 transition duration-300 ease-in-out">
+              hover:bg-white hover:text-red-500 transition duration-300 ease-in-out">
               Join the Waitlist
             </button>
               </li>
@@ -39,15 +39,31 @@ const Home = () => {
           </div>
 
            
-          <div className="w-full md:w-1/2 flex justify-center mt-8 md:mt-0">
-            <div className="relative">
-              <img
-                src={banner}
-                alt="Healthy meal delivery banner"
-                className="rounded-lg shadow-lg border-none w-full max-h-[60vh] md:max-h-[90vh] object-cover"
-              />
-            </div>
-          </div>
+          <div className="w-full md:w-3/4 flex justify-center mt-8 md:mt-0">
+  <div className="relative">
+     
+    {/* <div 
+      className="absolute bg-gradient-to-b from-transparent via-white rounded-md to-transparent blur-lg opacity-20"
+      style={{
+        top: "50%",    
+        left: "50%",   
+        width: "30%",  
+        height: "70%",  
+        transform: "translate(-50%, -50%)",  
+      }}
+    ></div> */}
+   
+   <img
+  src={banner}
+  alt="Healthy meal delivery banner"
+  className="relative border-none w-full h-auto max-h-[90vh] md:max-h-[100vh] object-cover"
+/>
+
+  </div>
+</div>
+
+
+
         </div>
       </div>
 
