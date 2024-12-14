@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import Hunchlunch from "../assets/Hunchlunch.png";  
+import Lunch from "../assets/Lunch.png";  
 import Union from "../assets/Union.png";           
 
 const HunchIs = () => {
@@ -11,7 +11,7 @@ const HunchIs = () => {
         <h1 className="text-3xl font-bold text-gray-800">What Hunch Is</h1>
         <div>
           <img
-            src={Hunchlunch}
+            src={Lunch}
             alt="Hunch Logo"
             className="h-24 w-28"  
           />

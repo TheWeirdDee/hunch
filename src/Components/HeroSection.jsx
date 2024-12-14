@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import Hunchlunch from "../assets/Hunchlunch.png";
+import Lunch from "../assets/Lunch.png";
 import aboutbg from "../assets/aboutbg.jpg"; 
 
 const HeroSection = () => {
@@ -21,7 +21,7 @@ const HeroSection = () => {
     
     <div className="relative text-center">
       <img
-        src={Hunchlunch}
+        src={Lunch}
         alt="Meal Box"
         className="mx-auto w-64"
       />
