@@ -2,6 +2,7 @@
 import React from "react";
 import HunchLogo from "../assets/Hunch-Logo.png";
 import { FaInstagram, FaLinkedin, FaTwitter, FaFacebook } from "react-icons/fa";  
+import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -87,12 +88,12 @@ const Footer = () => {
         
         <div className="col-span-1 flex flex-col items-center lg:items-start">
           <h2 className="text-md font-semibold mb-2 text-center lg:text-left">Waitlist</h2>
-          <a
-            href="#"
-            className="bg-red-600 text-white px-6 py-2 mt-2 rounded-lg hover:bg-red-700 text-sm"
-          >
-            Join the Waitlist
-          </a>
+          <NavLink to='/waitlist' activeClassName="active">
+   
+   <button className="bg-red-500 mt-1 text-white px-4 py-2 rounded-lg hover:bg-red-600 hover:text-black">
+   Join the Waitlist
+ </button>
+</NavLink>
         </div>
       </div>
 

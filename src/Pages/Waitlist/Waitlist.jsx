@@ -10,7 +10,7 @@ const Waitlist = () => {
       style={{ backgroundImage: `url(${contactbg})` }}
     >
       <div className="bg-white shadow-lg rounded-lg flex flex-col md:flex-row max-w-3xl overflow-hidden w-full mx-4">
-        {/* Image Section */}
+         
         <div className="md:w-1/2">
           <img
             src={plate}
@@ -19,13 +19,13 @@ const Waitlist = () => {
           />
         </div>
 
-        {/* Form Section */}
+        
         <div className="md:w-1/2 p-6">
-          <h1 className="text-green-500 text-2xl font-bold mb-4">
+          <h1 className="text-green-500 text-2xl font-bold text-center mb-4">
             Join The Waitlist
           </h1>
           <form>
-            <div className="mb-3">
+            <div className="lg:mt-8">
               <label
                 className="block text-gray-700 text-sm mb-1"
                 htmlFor="name"
@@ -39,7 +39,7 @@ const Waitlist = () => {
                 placeholder="Enter your name"
               />
             </div>
-            <div className="mb-4">
+            <div className="lg:mt-8 mt-8">
               <label
                 className="block text-gray-700 text-sm mb-1"
                 htmlFor="email"
@@ -55,7 +55,7 @@ const Waitlist = () => {
             </div>
             <button
               type="submit"
-              className="w-full py-2 bg-red-500 text-white rounded-md font-medium text-sm hover:bg-red-600 transition"
+              className="w-full py-2 mt-7 bg-red-500 text-white rounded-md font-medium text-sm hover:bg-red-600 transition"
             >
               Join the Waitlist
             </button>

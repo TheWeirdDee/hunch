@@ -5,6 +5,7 @@ import HunchIs from "../../Components/HunchIs";
 import Covered from "../../Components/Covered";
 import HowItWorks from "../../Components/HowItWorks";
 import WhyChooseHunch from "../../Components/WhyChooseHunch";
+import { NavLink } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -28,11 +29,12 @@ const Home = () => {
                 • Simplified meal planning and delivery for balanced nutrition.
               </li>
               <li>
-              <button
-              className="mt-6 px-6 py-3 bg-red-500 text-white font-semibold rounded-lg shadow 
-              hover:bg-white hover:text-red-500 transition duration-300 ease-in-out">
-              Join the Waitlist
-            </button>
+              <NavLink to='/waitlist' activeClassName="active">
+   
+            <button className="bg-red-500 mt-1 text-white px-4 py-2 rounded-lg hover:bg-green-50 hover:text-black">
+            Join the Waitlist
+          </button>
+</NavLink>
               </li>
             </ul>
              
@@ -42,16 +44,7 @@ const Home = () => {
           <div className="w-full md:w-3/4 flex justify-center mt-8 md:mt-0">
   <div className="relative">
      
-    {/* <div 
-      className="absolute bg-gradient-to-b from-transparent via-white rounded-md to-transparent blur-lg opacity-20"
-      style={{
-        top: "50%",    
-        left: "50%",   
-        width: "30%",  
-        height: "70%",  
-        transform: "translate(-50%, -50%)",  
-      }}
-    ></div> */}
+     
    
    <img
   src={banner}
