@@ -8,7 +8,7 @@ const HunchIs = () => {
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 p-4">
        
       <div className="flex items-center justify-center space-x-4 mb-4">
-        <h1 className="text-3xl font-bold text-gray-800">What Hunch Is</h1>
+        <h1 className="text-3xl font-bold text-gray-800">What Hunch Is?</h1>
         <div>
           <img
             src={Lunch}

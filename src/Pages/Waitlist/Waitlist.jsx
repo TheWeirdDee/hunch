@@ -2,6 +2,7 @@
 import React from 'react';
 import plate from "../../assets/plate.png";
 import contactbg from "../../assets/contactbg.png";
+import { NavLink } from 'react-router-dom';
 
 const Waitlist = () => {
   return (
@@ -53,12 +54,12 @@ const Waitlist = () => {
                 placeholder="Enter your email address"
               />
             </div>
-            <button
-              type="submit"
-              className="w-full py-2 mt-7 bg-red-500 text-white rounded-md font-medium text-sm hover:bg-red-600 transition"
-            >
-              Join the Waitlist
-            </button>
+            <NavLink to='/waitlist' activeClassName="active">
+   
+    <button className="bg-white text-red-600 px-4 py-2 rounded-lg font-semibold hover:bg-red-600 hover:text-white">
+      Join the Waitlist
+    </button>
+</NavLink>
           </form>
         </div>
       </div>

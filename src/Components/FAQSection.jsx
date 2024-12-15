@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-// FAQSection.jsx
+ 
 import React, { useState } from "react";
 
 const faqs = [

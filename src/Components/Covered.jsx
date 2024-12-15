@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useEffect } from "react";
 import AOS from "aos";
-import "aos/dist/aos.css"; // Import AOS styles
+import "aos/dist/aos.css";  
 import Mobileone from "../assets/Mobileone.png";
 import mobiletwo from "../assets/mobiletwo.png";
 import mobilethree from "../assets/mobilethree.png";

@@ -32,9 +32,7 @@ const StorySection = () => {
           <p className="text-gray-700 text-md leading-relaxed">
             Lorem ipsum dolor sit amet consectetur. Rhoncus quam nunc habitant et urna arcu. Ut gravida magna nec at egestas pellentesque diam. Enim mattis facilisis egestas amet. Volutpat hendrerit mauris id ultrices. Ligula sit turpis in ornare non.
             <br />
-            Lorem ipsum dolor sit amet consectetur. Rhoncus quam nunc habitant et urna arcu. Ut gravida magna nec at egestas pellentesque diam. Enim mattis facilisis egestas amet. Volutpat hendrerit mauris id ultrices. Ligula sit turpis in ornare non.
-            <br />
-            Lorem ipsum dolor sit amet consectetur. Rhoncus quam nunc habitant et urna arcu. Ut gravida magna nec at egestas pellentesque diam. Enim mattis facilisis egestas amet. Volutpat hendrerit mauris id ultrices. Ligula sit turpis in ornare non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam veniam voluptatibus velit deserunt omnis beatae eos ipsam earum qui dolor sapiente dignissimos provident, minima reprehenderit in sunt quis? Assumenda, tempora. Lorem ipsum dolor sit amet consectetur.
+            Lorem ipsum dolor sit amet consectetur. Rhoncus quam nunc habitant et urna arcu. Ut gravida magna nec at egestas pellentesque diam. Enim mattis facilisis egestas amet. Volutpat hendrerit mauris id ultrices. Ligula sit turpis in ornare non.    
           </p>
         </div>
       </div>
